@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	-webkit-boxsizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+    font-family: 'Verdana', 'Geneva', sans-serif;
+	margin: 0;
+}
+
+
+.menu {
+	list-style: none;
+	height: 30px;
+	text-align: center;
+}
+
+
+a:link, a:visited, a:hover, a:active {
+  color: black;
+}
+
+
+.link {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.link:hover, .link:visited{
+	text-decoration: underline;
+}
+
+#header {
+	height: 120px;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	z-index: 10;
+}
+
+.header-logo {
+	font-size: 20px;
+	padding: 50px;
+	float: left;
+}
+
+.header-list {
+	float: right;
+	margin-right: 70px;
+	font-size: 15px;
+	padding-top: 50px;
+}
+
+
+.header-list li{
+	float: left;
+	padding: 0 40px;
+}
+
+
+#main {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+
+.copy h1 {
+	color: grey;
+	font-size: 30px;
+	font-weight: lighter;
+	position: absolute;
+	top: 300px;
+	left: 120px;
+	line-height: 45px;
+}
+
+.copy p {
+	color: grey;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+	position: absolute;
+	top: 400px;
+	left: 154px;
+}
+
+
+.top-visual {
+	background-image: url("IMG_8586.jpeg");
+	background-size: cover;
+	height: 550px;
+	margin: 0 100px 0 250px;
+}
+
+
+.story {
+	height: 2000px;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	line-height: 40px;
+}
+
+
+.story a {
+	font-weight: lighter;
+	font-size: 20px;
+	transform: rotateZ(90deg);
+	color: grey;
+	position: absolute;
+	top: 780px;
+	left: 1380px;
+}
+
+
+.story img{
+	padding-top: 150px;
+}
+
+
+.story-containerA img{
+	height: 500px;
+	margin-left: 200px;
+}
+
+.story-containerA p {
+	float: right;
+	text-align: left;
+	margin-top: 200px;
+	margin-right: 250px;
+}
+
+
+.story-containerB img {
+	 float: right;
+	height: 500px;
+	margin-right: 200px;
+}
+
+.story-containerB p {
+	float: left;
+	text-align: left;
+	margin-left: 200px;
+	margin-top: 180px;
+}
+
+
+.story-containerC img{
+	height: 500px;
+	margin-right: 650px;
+	margin-left: 250px;
+	float: left;
+}
+
+.story-containerC p{
+	float: right;
+	text-align: left;
+	margin-right: 150px;
+	position: absolute;
+	top: 2025px;
+	left: 750px;
+}
+
+
+.story-containerD img {
+	float: right;
+	height: 500px;
+	margin-right: 200px;
+}
+
+.story-containerD p{
+	float: left;
+	text-align: left;
+	position: absolute;
+	top: 2530px;
+	left: 150px;
+}
+
+
+.about a{
+	font-weight: lighter;
+	font-size: 20px;
+	transform: rotateZ(90deg);
+	color: grey;
+	position: absolute;
+	top: 3100px;
+	left: 1390px;
+}
+
+
+.about {
+	height: 800px;
+	
+}
+
+.text-about {
+	margin-left: 350px;
+	margin-top: 600px;
+}
+
+
+.text-about h1 {
+	font-size: 25px;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+.text-about h2{
+	float: right;
+	padding-right: 880px;
+	padding-top: 10px;
+	font-weight: lighter;
+	font-size: 12px;
+}
+
+.text-about p {
+	padding-top: 50px;
+	font-size: 13px
+}
+
+.text-about h3 {
+	line-height: 40px;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+
+.contact-form {
+	margin: 80px 0px 100px 400px;
+	height: 400px;
+}
+
+
+.contact-form a{
+	font-weight: lighter;
+	font-size: 20px;
+	transform: rotateZ(90deg);
+	color: grey;
+	position: absolute;
+	top: 3900px;
+	left: 1390px;
+}
+
+.contact-form h3 {
+	font-size: 25px;
+	font-weight: lighter;
+	letter-spacing: 0.5px;
+	padding-bottom: 25px;
+}
+
+.contact-form p {
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+textarea, input {
+	margin-bottom: 15px;
+	width: 600px;
+	border-radius: 5px;
+	border: 0.5px solid grey;
+}
+
+input {
+	height: 20px;
+}
