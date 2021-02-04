@@ -212,7 +212,7 @@ a:link, a:visited, a:hover, a:active {
 
 .text-about h2{
 	float: right;
-	padding-right: 880px;
+	margin-right: 820px;
 	padding-top: 10px;
 	font-weight: lighter;
 	font-size: 12px;
